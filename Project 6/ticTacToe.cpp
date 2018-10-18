@@ -121,16 +121,6 @@ int main(){
 
     }while (result == "ongoing");
 
-
-    for (i = 0; i < 3; i++)
-        {
-            for (g = 0; g < 3; g++){
-                arrayValue = gameBoard[i][g];
-                cout << arrayValue;
-            }
-            cout << endl;
-        }
-
     if (result == "tie"){
         cout << "Tied game." << endl;
     }
